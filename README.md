@@ -154,7 +154,7 @@ You need **Python 3.11** and **git** (pip uses it to fetch the pinned engine). c
 at least Python 3.11, and we score on 3.11.
 
 ```bash
-git clone https://github.com/pbhar-hyde/catan-agent-hackathon.git
+git clone https://github.com/lyric-hyde/catan-hackathon-agent.git
 cd catan-agent-hackathon
 python3.11 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
