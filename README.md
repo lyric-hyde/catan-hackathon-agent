@@ -93,13 +93,13 @@ A new password must be at least 8 characters, differ from the old one and not be
 
 ### On your machine
 
-The kit is in `~/catan-agent-hackathon`, with its Python environment ready. `~/START_HERE.txt` has the
+The kit is in `~/catan-hackathon-agent`, with its Python environment ready. `~/START_HERE.txt` has the
 short version.
 
 Go to the kit and activate its environment (do this every time you log in):
 
 ```bash
-cd ~/catan-agent-hackathon && source .venv/bin/activate
+cd ~/catan-hackathon-agent && source .venv/bin/activate
 ```
 
 Check that everything works:
@@ -144,7 +144,7 @@ no spaces: `blanc`, not `teamblanc`), and your team leader's full registered pho
 
 ## 1. Install
 
-**On your team machine the kit is already installed**, in `~/catan-agent-hackathon` with its
+**On your team machine the kit is already installed**, in `~/catan-hackathon-agent` with its
 virtual environment and a passed self-check. Follow [Your team machine](#your-team-machine) below
 to log in, and skip to section 3.
 
@@ -155,7 +155,7 @@ at least Python 3.11, and we score on 3.11.
 
 ```bash
 git clone https://github.com/lyric-hyde/catan-hackathon-agent.git
-cd catan-agent-hackathon
+cd catan-hackathon-agent
 python3.11 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu    # Linux and Windows only
@@ -318,7 +318,7 @@ team's API key is sent to your team leader: paste it where it says `<your key>` 
 7. Start it from your kit folder:
 
    ```bash
-   cd ~/catan-agent-hackathon && opencode-hyde
+   cd ~/catan-hackathon-agent && opencode-hyde
    ```
 
 After the first time, you only need step 7.
