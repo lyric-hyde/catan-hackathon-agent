@@ -155,7 +155,7 @@ at least Python 3.11, and we score on 3.11.
 
 ```bash
 git clone https://github.com/lyric-hyde/catan-hackathon-agent.git
-cd catan-agent-hackathon
+cd catan-hackathon-agent
 python3.11 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu    # Linux and Windows only
